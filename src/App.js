@@ -15,7 +15,7 @@ export class MapContainer extends Component {
       activeMarker: marker,
       showingInfoWindow: true
   });
-
+G0dlAe8N0
 
   onMapClicked = (props) => {
     if (this.state.showingInfoWindow) {
@@ -57,5 +57,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyCnY73kvyiQLtQwpli9k2GgD-G0dlAe8N0'
+  apiKey: {{google_maps}}
 })(MapContainer)
